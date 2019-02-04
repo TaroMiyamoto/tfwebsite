@@ -1,34 +1,10 @@
-# techforward-nuxt-contentful
+# STATIC
 
-> My unreal Nuxt.js project
+**This directory is not required, you can delete it if you don't want to use it.**
 
-## Build Setup
-.contentful.json
-```json:.contentful.json
-{
-    "CTF_SPACE_ID": "YOUR_SPACE_ID",
-    "CTF_CDA_ACCESS_TOKEN": "YOUR_ACCESS_TOKEN"
-}
-```
-.env
-```.env
-CTF_SPACE_ID="YOUR_SPACE_ID"
-CTF_CDA_ACCESS_TOKEN="YOUR_ACCESS_TOKEN"
-```
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
 
-```bash
-# install dependencies
-$ yarn install
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
